@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">EvaluacionContinua1</string>
+    <string name="valnumero1">Ingrese un numero</string>
 </resources>
