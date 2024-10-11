@@ -7,4 +7,10 @@
     android:layout_height="match_parent"
     tools:context=".CuadradoActivity">
 
+    <TextView
+        android:id="@+id/tvResultados"
+        android:layout_width="109dp"
+        android:layout_height="55dp"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="115dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
