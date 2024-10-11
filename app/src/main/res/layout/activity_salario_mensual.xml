@@ -32,13 +32,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calcular"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="225dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAnios"
+        app:layout_constraintVertical_bias="0.147"
+        tools:layout_editor_absoluteX="142dp" />
 
     <TextView
         android:id="@+id/tvResultado"
         android:layout_width="103dp"
         android:layout_height="73dp"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="313dp" />
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="371dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
